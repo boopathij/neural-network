@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-network"
+version = "0.1.0"
+description = "Neural network learning project"
+readme = "README.md"
+requires-python = "==3.12"
+dependencies = [
+    "numpy"
+]
+
+[project.optional-dependencies]
+dev = [
+    "jupyter",
+    "ipykernel",
+]
